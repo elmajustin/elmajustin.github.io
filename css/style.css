@@ -7,26 +7,7 @@
     min-height: 100vh;
     box-sizing: border-box;
     overflow: hidden;
-}
-.main-wrapper::after {
-  content: "";
-  position: absolute;
-  bottom: -15vw;
-  left: -20vh;
-  width: 50vh;
-  min-height: 50vh;
-  border-radius: 50%;
-  /*background-color: #c9edf5;*/
-  z-index: 0;
-}
-.main-wrapper::after {
-    width: 70vw;
-    height: 70vw;
-    top: -35vw;
-    left: 70vw;
-    border-radius: 20%;
-    background-color: #9bd4b5;
-    transform: rotate(-20deg);
+    background-image: linear-gradient(180deg,#0ea4ce,#c0fce8);
 }
 .content-box {
   display: flex;
