@@ -58,10 +58,10 @@
   transform: translate(0,-1rem);
 }
 body.canvas-page{
-          margin:0;
-          overflow: hidden;
-          font-size:0;
-        }
+  margin:0;
+  overflow: hidden;
+  font-size:0;
+}
         canvas{
             background: black;
             width: 100vw;
